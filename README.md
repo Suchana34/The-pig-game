@@ -7,4 +7,4 @@
 ## The player can choose to 'Hold', which means that his ROUND score gets added to his GLBAL score. After that, it's the next player's turn
 ## The first player to reach 100 points on GLOBAL score wins the game
 
-# Head over to this link to play - http://suchana.cf/The-pig-game/
+## Head over to this link to play - http://suchana.cf/The-pig-game/
