@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link href="https://fonts.googleapis.com/css?family=Lato:100,300,600" rel="stylesheet" type="text/css">
+        <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet" type="text/css">
+        <link type="text/css" rel="stylesheet" href="syle.css">
+        
+        <title>Pig Game</title>
+    </head>
+
+    <body>
+        <div class="wrapper clearfix">
+            <div class="player-0-panel active">
+                <div class="player-name" id="name-0">Player 1</div>
+                <div class="player-score" id="score-0">43</div>
+                <div class="player-current-box">
+                    <div class="player-current-label">Current</div>
+                    <div class="player-current-score" id="current-0">43</div>
+                </div>
+            </div>
+            
+            <div class="player-1-panel">
+                <div class="player-name" id="name-1">Player 2</div>
+                <div class="player-score" id="score-1">72</div>
+                <div class="player-current-box">
+                    <div class="player-current-label">Current</div>
+                    <div class="player-current-score" id="current-1">11</div>
+                </div>
+            </div>
+            
+            <button class="btn-new"><i class="ion-ios-plus-outline"></i>New game</button>
+            <button class="btn-roll"><i class="ion-ios-loop"></i>Roll dice</button>
+            <button class="btn-hold"><i class="ion-ios-download-outline"></i>Hold</button>
+            <button class="btn-rules"><i class="ion-ios-book-outline"></i>Rules</button>
+
+
+            
+            <img src="dice-5.png" alt="Dice" class="dice" id="dice">
+            <h1 id = "alertround"></h1>
+            </div>
+
+            <div id = "popup" class = "popup wrapper">
+            
+                <button class="btn-close"><i class="ion-ios-close-outline"></i></button>
+
+                
+                <ul><li><h1>GAME RULES</h1></li>
+                <li><h2>The game has 2 players, playing in rounds.</h2></li>
+                <li><h2>In each turn, a player rolls a dice as many times as he whishes. Each result get added to his ROUND score.</h2></li>
+                <li><h2>BUT, if the player rolls a 1, all his ROUND score gets lost. After that, it's the next player's turn.</h2></li>
+                <li><h2>The player can choose to 'Hold', which means that his ROUND score gets added to his GLBAL score. After that, it's the next player's turn.</h2></li>
+                <li><h2>The first player to reach 100 points on GLOBAL score wins the game.</h2></li></ul>
+            </div>
+
+        
+        
+        <script src="app.js"></script>
+    </body>
+</html>
